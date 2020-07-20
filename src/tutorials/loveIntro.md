@@ -26,4 +26,4 @@ In order to write our games, we'll need a text editor. You can use whatever you 
 
 With that all said and done, let's get coding! 
 
-In our first tutorial, we'll create Pong, which can be found [here](https://mccarthy.tech/#/blogs/tutorials-pong)
+In our first tutorial, we'll create Pong, which can be found [here](/tutorials/lovepong/)
