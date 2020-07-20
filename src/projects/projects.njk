@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+---
+
+<div class="row">
+    {% for project in collections.projects %}
+        <div class="col-md-6">
+                <div class="thumbnail card">
+                    <div class="img-event">
+                        <img class="group list-group-image img-fluid center-block" style="max-width: 100%; height: auto;" src="{{ project.data.imagePath }}" alt="" />
+                    </div>
+                    <div class="caption card-body">
+                        <h4 class="group card-title inner list-group-item-heading">
+                            {{ project.data.title }}</h4>
+                        <p class="group inner list-group-item-text">
+                            {{ project.data.summary }}</p>
+                    </div>
+                    <a href="{{ project.url }}" class="stretched-link"></a>
+                </div>
+            <hr>
+        </div>
+    {% endfor %}
+</div>

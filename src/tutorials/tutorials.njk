@@ -1,0 +1,14 @@
+---
+eleventyExcludeFromCollections: true
+---
+
+{% for tutorial in collections.tutorials %}
+    <div class="card tutorial-card">
+        <div class="card-header">{{ tutorial.data.title }}</div>
+        <div class="card-body">
+            {{ tutorial.data.summary }}
+        </div>
+        <div class="card-footer">{{ tutorial.data.createdAt }}</div>
+        <a href="{{ tutorial.url }}" class="stretched-link"></a>
+    </div>
+{% endfor %}
