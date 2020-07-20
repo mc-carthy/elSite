@@ -1,0 +1,23 @@
+{
+  "name": "elSite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mc-carthy/elSite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mc-carthy/elSite/issues"
+  },
+  "homepage": "https://github.com/mc-carthy/elSite#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
