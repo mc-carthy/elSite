@@ -1,0 +1,13 @@
+---
+layout: layouts/main
+---
+
+<div class="container">
+    <div class="card tutorial-card">
+        <div class="card-header">{{ title }}</div>
+            <div class="card-body">
+                {{ content | safe }}
+            </div>
+        <div class="card-footer">{{ createdAt }}</div>
+    </div>
+</div>
