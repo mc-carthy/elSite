@@ -1,5 +1,5 @@
 ---
-layout: layouts/tutorialCard
+layout: layouts/card
 title: 'LÖVE Game Dev Tutorials: Arkanoid'
 summary: "In our second tutorial of the LÖVE game dev series, we'll look at recreating Arkanoid (also known as Breakout)."
 createdAt: 'Dec 18, 2018'

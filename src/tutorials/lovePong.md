@@ -1,5 +1,5 @@
 ---
-layout: layouts/tutorialCard
+layout: layouts/card
 title: 'LÖVE Game Dev Tutorials: Pong'
 summary: "In this beginner level tutorial, we'll use the LÖVE framework to develop one of the most basic videogames, Pong."
 createdAt: 'Jan 17, 2019'
